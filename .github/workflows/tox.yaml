@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  test35-8:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
@@ -31,6 +31,7 @@ jobs:
       - name: Run tox
         working-directory: /home/runner/checkbox/providers/checkbox-provider-ce-oem/
         run: tox
+  test310:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
