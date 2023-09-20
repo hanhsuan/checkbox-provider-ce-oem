@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Install libsystemd-journal
-        run: apt install libsystemd-journal -y
+        run: sudo apt-get install libsystemd-journal -y
       - name: Install tox
         run: pip install tox
       - name: Run tox
