@@ -1,3 +1,7 @@
+unit: packaging meta-data
+os-id: debian
+Depends: python3-systemd
+
 id: ce-oem-rpmsg/detect-device
 _summary: Check if the RPMSG devices is initialed.
 category_id: rpmsg
